@@ -1,2 +1,2 @@
 # rs-flx
-Rust bindings for flx-c
+> Rust bindings for flx-c

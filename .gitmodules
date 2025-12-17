@@ -1,0 +1,4 @@
+[submodule "c_lib/flx-c"]
+	path = c_lib/flx-c
+	url = https://github.com/the-flx/flx-c
+	branch = master

@@ -27,6 +27,8 @@ jobs:
         toolchain: stable
 
     - uses: actions/checkout@v6
+      with:
+        submodules: 'recursive'
 
     - name: Run tests
       run: |

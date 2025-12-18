@@ -7,6 +7,27 @@
 # rs-flx
 > Rust bindings for flx-c
 
+## 🔨 Usage
+
+Add this to your `Cargo.toml`:
+
+```toml
+[dependencies]
+rs-flx = "0.1.3"
+```
+
+In your `main.rs`:
+
+```rust
+let result: FlxResult = rs_flx::score("buffer-file-name", "bfn");
+
+println!("Score: {}", result.score);
+```
+
+## 📂 Example
+
+- [demo-rs-flx][]
+
 ## ⚜️ License
 
 Redistribution and use in source and binary forms, with or without
@@ -35,3 +56,8 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 See [`LICENSE`](./LICENSE) for details.
+
+
+<!-- Links -->
+
+[demo-rs-flx]: https://github.com/the-flx/demo-rs-flx

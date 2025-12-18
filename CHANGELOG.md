@@ -10,6 +10,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 * N/A
 
+## 0.1.3
+> Released Dec 18, 2025
+
+* Working release
+
 ## 0.1.0
 > Released Dec 18, 2025
 

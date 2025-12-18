@@ -30,6 +30,11 @@ jobs:
       with:
         submodules: 'recursive'
 
+    - name: Run tests
+      continue-on-error: true
+      run: |
+        cargo test
+
     - name: Run build
       run: |
         cargo build --release --all-features

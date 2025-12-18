@@ -1,4 +1,4 @@
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-green.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![Rust Version](https://img.shields.io/badge/Rust-1.91.1+-black.svg?logo=rust)](https://rust-lang.org/)
 [![Release](https://img.shields.io/github/tag/the-flx/rs-flx.svg?label=release&logo=github)](https://github.com/the-flx/rs-flx/releases/latest)
 [![crates.io](https://img.shields.io/crates/v/rs-flx.svg?logo=rust)](https://crates.io/crates/rs-flx)

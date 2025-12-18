@@ -2,12 +2,16 @@
 extern crate bindgen;
 
 fn main() {
+    // Compile C code.
+    cc::Build::new()
+        .file("./c_lib/flx-c/src/flx.c")
+        .compile("flx");
+
+    // Required for downstream crates.
+    println!("cargo:rustc-link-lib=static=flx");
+
     #[cfg(feature = "bindgen")]
     {
-        cc::Build::new()
-            .file("./c_lib/flx-c/src/flx.c")
-            .compile("flx");
-
         use std::env;
         use std::path::PathBuf;
 

@@ -7,6 +7,8 @@
 # rs-flx
 > Rust bindings for flx-c
 
+[![CI](https://github.com/the-flx/rs-flx/actions/workflows/test.yml/badge.svg)](https://github.com/the-flx/rs-flx/actions/workflows/test.yml)
+
 ## 🔨 Usage
 
 Add this to your `Cargo.toml`:

@@ -3,7 +3,9 @@ name = "rs-flx"
 version = "0.1.0"
 edition = "2021"
 description = "Rust bindings for flx-c"
+repository = "https://github.com/the-flx/flx-rs"
 homepage = "https://github.com/the-flx/rs-flx"
+readme = "README.md"
 authors = [
     "Jen-Chieh Shen <jcs090218@gmail.com>",
 ]
@@ -14,6 +16,7 @@ build = "build.rs"
 
 [build-dependencies]
 bindgen = { version = "0.72.1", optional = true }
+cc = "1.2.49"
 
 [features]
 default = [ ]

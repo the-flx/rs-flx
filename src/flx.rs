@@ -1,3 +1,5 @@
+include!("./bindings.rs");
+
 use std::ffi::CString;
 
 pub struct FlxResult {

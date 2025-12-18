@@ -1,6 +1,6 @@
 [package]
 name = "rs-flx"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Rust bindings for flx-c"
 repository = "https://github.com/the-flx/flx-rs"

@@ -6,9 +6,6 @@
 #![allow(non_snake_case)]
 
 #[cfg(not(feature = "bindgen"))]
-include!("./bindings.rs");
-
-#[cfg(not(feature = "bindgen"))]
 include!("./flx.rs");
 
 #[cfg(feature = "bindgen")]

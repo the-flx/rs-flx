@@ -28,7 +28,7 @@ println!("Score: {}", result.score);
 
 ## 🔗 References
 
-- [llama-rs](https://github.com/maxbrunsfeld/llama-rs)
+- [llama-rs][]
 
 ## 📂 Example
 
@@ -65,5 +65,7 @@ See [`LICENSE`](./LICENSE) for details.
 
 
 <!-- Links -->
+
+[llama-rs]: https://github.com/maxbrunsfeld/llama-rs
 
 [demo-rs-flx]: https://github.com/the-flx/demo-rs-flx
